@@ -1,0 +1,52 @@
+table {
+    font-family: fantasy;
+    border-collapse: collapse;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    
+}
+
+td{
+    border: 1px solid black;
+    padding: 10px;
+    border: dotted 2px color #6a5acd ;
+
+}
+tr{
+    font-size: 20px;
+    border: 3px solid;
+}
+
+th.th{
+    background-color:rgb(207,11,220) ;
+    width: 25%;
+}
+.jour{
+    background-color: rgb(207, 194, 207);
+}
+h1{
+    background-color: rgb(179, 130, 179);
+    
+    
+} 
+
+
+.caption{
+    background-color: rgb(179, 130, 179);
+    color: rgb(207, 11, 224);
+    font-size: 40px;
+    
+
+}
+.tableau2{
+    font-family: 'Times New Roman', Times, serif;
+     width: 50%;
+}
+caption{
+    color: black;
+}
+
+
+   
+
