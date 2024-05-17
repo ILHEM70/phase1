@@ -11,6 +11,7 @@
     margin: auto;
 
 
+
 }
 header{
     height: 150px;background-color: blanchedalmond;
@@ -24,6 +25,7 @@ nav{
       background-color: green;
       width: 100%;
     }
+  
 }
 main section:first-child{
   background-color: red;
@@ -49,11 +51,14 @@ background-color: aqua;
     }
     
   }
-  @media only screen and (max-width: 500px) {
-    .content {
+  @media only screen and (max-width: 500px) 
+  .content {
       background-color: lightblue;
       width: 50%;
       height: 20px;
+    }
+    *{
+      text-align: left;
     }
     main section:first-child{
       background-color: gray;
@@ -61,6 +66,10 @@ background-color: aqua;
     }
     main section:last-child {
       font-size: 24px;
-    }
+
+
    
   }
+  
+
+  

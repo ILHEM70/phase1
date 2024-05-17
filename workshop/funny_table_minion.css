@@ -6,6 +6,20 @@ table{
 }
 td{
     border: 1px solid black; 
+    /* background-color: yellow; */
     
 }
 
+
+.jaune{
+    background-color: yellow;
+}
+.noir{
+    background-color: black;
+}
+.bleu{
+    background-color: blue;
+}
+.gris{
+    background-color: gray;
+}
