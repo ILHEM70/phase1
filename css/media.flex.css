@@ -1,0 +1,33 @@
+*{
+    width: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+#content{
+    width: 1200px;
+    background-color: orange;
+    margin: auto;
+}
+section:first-child{
+    display: flex;
+    flex-wrap: wrap;
+}
+.equipe{
+    width: 200px;
+    height: 300px;
+    border: 1px, solid;
+    
+    
+}
+
+@media screen and (max-width:1200px){
+    #content{
+        width: 80%;
+
+     }
+    
+    
+
+}
+    

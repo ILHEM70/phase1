@@ -14,19 +14,13 @@
 
 }
 header{
-    height: 150px;background-color: blanchedalmond;
+    height: 150px;background-color: rgb(216, 136, 16);
 }
 nav{
     height: 100px;
     background-color: rgb(174 , 121, 224);
 }
-@media only screen and (max-width: 1200px) {
-    .content {
-      background-color: green;
-      width: 100%;
-    }
-  
-}
+
 main section:first-child{
   background-color: red;
   height: 200px;
@@ -38,6 +32,13 @@ main section:nth-child(2){
 }
 main section:last-child {
 background-color: aqua;
+
+}
+@media only screen and (max-width: 1200px) {
+  .content {
+    background-color: green;
+    width: 100%;
+  }
 
 }
 

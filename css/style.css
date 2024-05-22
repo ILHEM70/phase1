@@ -1,0 +1,71 @@
+.container{
+    width: 35%;
+    height: 100vh;
+    margin:0 auto;
+    border: 2px solid #98b241;
+    background-image: url("../img/img/bg_page.gif");
+    background-repeat: no-repeat;
+    background-position: 20% ;
+}
+.img{
+    width: 100%;
+    height: 20%;
+    background-image: url(../img/img/apple.jpg);
+    background-repeat: no-repeat;
+    background-color: #fff;
+    margin: 0;
+    
+}
+.titre{
+    text-align: right;
+    color:#98b241 ;
+    font-size: 50px;
+}
+.p-titre{
+    text-align: right;
+    color:#98b241;
+    padding-right: 300px;
+
+}
+.list{
+    width: 100%;
+    height: 40px;
+    background-color:#98b241 ;
+    margin: 0;
+    
+}
+ul{
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+ul li{
+    line-height: 40px;
+    color: #fff;
+    width: 13%;
+    border-right: 1px solid;
+    font-weight: bold;
+}
+.text h2{
+    display: inline;
+   color: #98b241; 
+
+
+}
+.text{
+    margin-left: 120px;
+    margin-top: 50px;
+    border-bottom: 1px solid #98b241;
+    
+}
+.des{
+    margin-left: 120px;
+    margin-right: 80px;
+    text-align: justify;
+    
+}
+span{
+    background-color: yellow;
+}

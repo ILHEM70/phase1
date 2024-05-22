@@ -1,0 +1,16 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: ;
+    align-items: baseline;
+
+}
+
+
+    
