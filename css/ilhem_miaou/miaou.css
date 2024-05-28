@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  font-family: Edu TAS Beginner;
+}
+main {
+  width: 850px;
+  height: 850px;
+  background-color: rgb(41, 52, 123, 1);
+  margin: auto;
+}
+.titre {
+  width: 200px;
+  margin: auto;
+  font-size: 20px;
+}
+.chat {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.img {
+  width: 200px;
+  height: 200px;
+  margin: 30px 20px;
+}
+h3 {
+  text-align: center;
+  margin-top: 15px;
+}
+
+
+@media (max-width: 950px) {
+    main{
+        width: 80%;
+        background-color: rgb(71, 4, 4);
+    }
+
+}
+
+@media (max-width: 750px) {
+    main{
+        width: 90%;
+        background-color: blueviolet;
+    }
+}
+
+

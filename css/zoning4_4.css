@@ -1,0 +1,83 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+#content {
+  width: 1400px;
+  margin: auto;
+  border: 1px solid black;
+  background-color: gray;
+  min-height: 400px;
+}
+
+header {
+  height: 60px;
+  background-color: rgb(175, 195, 231);
+  text-align: center;
+  line-height: 60px;
+}
+nav {
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  background-color: antiquewhite;
+}
+main {
+  background-color: rgb(247, 248, 239);
+  padding: 10px 10px 30px 10px;
+  min-height: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+section {
+  width: 50%;
+  min-height: 100px;
+  border: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;
+}
+section > div {
+  border: 1px solid white;
+  background-color: rgb(17, 216, 223);
+  width: 50%;
+  height: 130px;
+}
+section:first-child > div {
+  background-color: rgb(222, 233, 156);
+}
+section:nth-child(2) > div {
+  background-color: rgb(196, 149, 116);
+}
+section:nth-child(3) > div {
+  background-color: rgb(243, 195, 137);
+}
+section:last-child > div {
+  background-color: rgb(168, 150, 126);
+}
+@media (max-width: 1399.98px) {
+  #content {
+    width: 80%;
+  }
+}
+@media (max-width: 959.98px) {
+  #content {
+    width: 100%;
+  }
+  section {
+    width: 100%;
+  }
+}
+
+@media (max-width: 559.98px) {
+  section > div {
+    width: 100%;
+  }
+}
+/* 6- pour les écrans de moins de 1400px la largeur principale sera 80% 
+
+7- pour les écrans de moins de 960px la largeur principale 100% et la largeur des sections seront 100% 
+
+8- pour les écrans de moins de 560px : les div enfants des sections auront 100% de largeur  */
