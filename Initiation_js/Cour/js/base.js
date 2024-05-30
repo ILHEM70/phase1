@@ -37,7 +37,7 @@ commentaires sur plusieurs lignes.
 var chaineDecaractere = "ma variable";
 var unChiffre = 2;
 var cetteAnnee = 2024;
-var strinAddition = "2+5";
+var stringAddition = "2+5";
 var addition2Number = 2 + 6;
 
 alert(chaineDecaractere);
@@ -46,7 +46,15 @@ console.log(cetteAnnee);
 console.log(strinAddition);
 console.log(addition2Number);
 
+//type variable:
+// 1- string
+// 2- integer: 4 , 5 ,.....
+// 3- boolean true/fals
+// 4- float 12.56
 
+var convertNumberToString = addition2Number.toString();
+console.log(typeof addition2Number);
+console.log(typeof convertNumberToString);
 
 
 
