@@ -14,18 +14,35 @@
 // for (var mesSous = 1000; mesSous <= 2000; mesSous += 50) {
 //   document.write("Le mois suivant" + mesSous + "<br>");
 // }
-
-var majoritéFr = 18;
+var ageMin = 3;
+var ageMax = 120
+var majoriteFr = 18;
 var age = window.prompt("Inserrez votre âge : ");
 age = parseInt("message");
-//var age = parseInt(window.prompt("message"))
-while (age >= 3 || age <= 120);
+
+while (age <= ageMin || ageMax <= 120) {
+    age = parseInt(window.prompt("Insérez votre âge !"))
+    
+}
+if (age >= majoriteFr) {
+    document.write("Bienvenue sur mon site");
+
+} else {
+  document.write("Vous êtes mineur");
+  window.location.href = "https://amazon.fr";
+
+   
+}
+
+
     
 
-
+ //window.open("https://amazon.fr");
+    // alaert();
 
 // version 2 :
 // var age = prompt("message")
 // age = parseInt(age)
+//var age = parseInt(window.prompt("message"))
 
 

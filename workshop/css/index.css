@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.principale {
+  background-color: #a08b9b;
+
+  height: 1200px;
+  position: relative;
+}
+.carre1 {
+  height: 50px;
+  width: 50px;
+  background-color: #ef0c0c;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.carre2 {
+  height: 50px;
+  width: 50px;
+  background-color: #230cef;
+  position: fixed;
+  right: 0px;
+  top: 0px;
+}
+.triangle {
+    width: 0;
+    height: 0;
+  border-left: 70px solid transparent;
+  border-right: 70px solid transparent;
+  border-top: 140px solid#ef0ca3;
+  position: sticky;
+  left:50%;
+  top: 0px;
+
+  z-index: 2;
+}
+.rond {
+  height: 100px;
+  width: 100px;
+  background-color: aqua;
+  border-radius: 50%;
+  position: relative;
+  left: 51%;
+   top:10px; 
+  z-index: 1;
+}
+.ombre {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(143, 157, 157);
+  border-radius: 50%;
+  position: fixed;
+  left: 51%;
+  top:calc(20%-40px) ;
+}
+.carre3 {
+  height: 50px;
+  width: 50px;
+  background-color: #05754e;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+}
+.carre4 {
+  height: 50px;
+  width: 50px;
+  background-color: #ece90a;
+  position: absolute;
+  right: 0px;
+  bottom: 270px;
+}

@@ -17,6 +17,8 @@ body {
   
 }
 header {
+    width: 100%;
+    background-color: yellow ;
   display: flex;
   margin: auto;
   /* padding: 15px; */
