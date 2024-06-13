@@ -8,7 +8,7 @@ var num1 = 16;
 num0 = parseInt(num0);
 // Le type de la variable "num1" est "string"
 var num1 = window.prompt("Insérrez une chaine de carathèrenumérique");
-//Pour appliquer les opérations arythmétique à une variable,il faut absolumentconvertirle type de cette variable a une valeur unmérique. grâce à la fonction (parseIntou) bien la fonction (parseFloat).
+//Pour appliquer les opérations arythmétique à une variable,il faut absolument convertir le type de cette variable a une valeur unmérique. grâce à la fonction (parseInt)ou bien la fonction (parseFloat).
 num1 = parseInt(num1)
 console.log("le type de la valeur de retour ");
 num0 = parseInt(num0);

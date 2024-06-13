@@ -13,3 +13,6 @@ if (nb1 > nb2) {
     nb3 = nb3 * 2 + nb2;
   }
 }
+document.write("nb1 = " + nb1 + "<br>");
+document.write("nb2 = " + nb2 + "<br>");
+document.write("nb3 = " + nb3 + "<br>");
